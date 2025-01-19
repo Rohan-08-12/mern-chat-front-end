@@ -18,7 +18,8 @@ import { useRef, useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
 // import apiURL from "../../utils";
-const apiURL=import.meta.env.API_URL;
+// const apiURL=import.meta.env.API_URL;
+const apiURL='https://mern-chat-backend-79ix.onrender.com';
 
 const ChatArea = ({ selectedGroup, socket, setSelectedGroup }) => {
   console.log(selectedGroup?._id);

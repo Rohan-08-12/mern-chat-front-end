@@ -33,7 +33,8 @@ const Sidebar = ({ setSelectedGroup }) => {
   const [isAdmin, setIsAdmin] = useState(false);
   const toast = useToast();
   const navigate = useNavigate();
-  const api_URL=import.meta.env.API_URL;
+  // const api_URL=import.meta.env.API_URL;
+  const api_URL='https://mern-chat-backend-79ix.onrender.com';
 
   useEffect(() => {
     checkAdminStatus();

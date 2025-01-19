@@ -12,7 +12,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { FiLogIn } from "react-icons/fi";
 import { useState } from "react";
 import axios from "axios";
-const apiURL=import.meta.env.API_URL;
+// const apiURL=import.meta.env.API_URL;
+const apiURL='https://mern-chat-backend-79ix.onrender.com';
 
 const Login = () => {
   const [email, setEmail] = useState("");

@@ -3,7 +3,8 @@ import Sidebar from "../components/Sidebar";
 import ChatArea from "../components/ChatArea";
 import io from "socket.io-client";
 import { useEffect, useState } from "react";
-const ENDPOINT=import.meta.env.API_URL;
+// const ENDPOINT=import.meta.env.API_URL;
+const ENDPOINT='https://mern-chat-backend-79ix.onrender.com';
 
 const Chat = () => {
   const [selectedGroup,setSelectedGroup]=useState(null);

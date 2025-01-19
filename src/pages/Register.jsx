@@ -20,7 +20,8 @@ const Register = () => {
   const [loading, setLoading] = useState(false);
   const toast = useToast();
   const navigate = useNavigate();
-  const apiURL=import.meta.env.API_URL;
+  // const apiURL=import.meta.env.API_URL;
+  const apiURL='https://mern-chat-backend-79ix.onrender.com';
 
   // Handle submit (login)
   const handleSubmit = async (e) => {
